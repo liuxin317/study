@@ -1,0 +1,84 @@
+.one-screen-box {
+	position: relative;
+	z-index: 10;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	cursor: move;
+}
+
+.one-screen-box .one-swiper-container {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.swiper-box .one-screen-box .swiper-slide {
+	background: none;
+}
+
+.swiper-box .one-swiper-container .swiper-wrapper {
+	position: relative;
+	z-index: 10;
+}
+
+.swiper-box .one-swiper-container .canvas {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 5;
+}
+
+.one-swiper-slide-01 .one-swiper-text-01 {
+	position: absolute;
+	top: 50%;
+	left: 6%;
+	transform: translate(0, -50%);
+	text-align: left;
+}
+
+.one-swiper-slide-01 .one-swiper-text-01 .theme {
+	font-size: 48px;
+	font-weight: bold;
+	color: white;
+}
+
+.one-swiper-slide-01 .one-swiper-text-01 .theme-english {
+	margin-top: 5px;
+	font-size: 27px;
+	color: #00ffe4;
+	text-transform: uppercase;
+}
+
+.one-swiper-slide-01 .one-swiper-text-01 .recount {
+	margin-top: 10px;
+	font-size: 21px;
+	color: #dde3ed;
+	letter-spacing: 2px;
+}
+
+.one-swiper-slide-01 .one-swiper-img-01 {
+	position: absolute;
+	top: 100px;
+	right: 3.5%;
+}
+
+.one-swiper-pagination {
+	position: absolute;
+	bottom: 0;
+	left: 0; 
+	text-align: center;
+}
+.swiper-box .one-swiper-pagination .swiper-pagination-bullet {
+	width: 20px;
+	height: 3px;
+	border-radius: 0;
+	vertical-align: bottom;
+}
+
+.swiper-box .one-swiper-pagination .swiper-pagination-bullet-active {
+	width: 20px !important;
+	height: 3px !important;
+	background-color: #f0ff00 !important;
+}

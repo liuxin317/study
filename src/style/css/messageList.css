@@ -1,0 +1,75 @@
+.message-box .message-group {
+  margin-bottom: 10px;
+}
+
+.message-box .head-img {
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 30px;
+  background-color: #ccc;
+}
+.message-box .message-info {
+  margin-left: 10px;
+}
+
+.message-box .message-info p.user-info {
+  font-size: 13px;
+  color: #999;
+  letter-spacing: 1px;
+}
+
+.message-box .message-value {
+  margin: 6px 10px 0 0;
+  background-color: #b4e4fc;
+  position: relative;
+  min-height: 30px;
+  max-width: calc(100% - 80px);
+  border-radius: 4px;
+  padding: 6px;
+  box-sizing: border-box;
+  min-width: 60%;
+}
+
+.message-box .message-left .message-value {
+  text-align: right;
+}
+
+.message-box .message-value pre {
+  white-space: pre-wrap;
+  word-break: break-all;
+  color: #1a1a1a;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0;
+}
+
+.message-box .message-left .message-icon {
+  position: absolute;
+  top: 0px;
+  left: -38px;
+  transform: rotateY(180deg);
+}
+
+.message-box .message-right .message-icon {
+  position: absolute;
+  top: 0px;
+  right: -38px;
+}
+
+.message-box .message-right .message-value {
+  float: right;
+  text-align: left;
+}
+
+.message-box .message-right .message-info {
+  margin-right: 10px;
+  margin-left: 0;
+}
+
+.message-box .message-right .message-info p.user-info {
+  text-align: right;
+}

@@ -1,0 +1,216 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei UI", "Microsoft YaHei", SimHei, "\5B8B\4F53", simsun, sans-serif;
+}
+
+.pull-left,
+.list-inline li {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+#content {
+  width: 100%;
+  height: 100%;
+}
+
+.chat-box {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding-top: 1px;
+  background-color: #286bb1;
+  opacity: 0;
+  -webkit-opacity: 0;
+  -moz-opacity: 0;
+  -o-opacity: 0;
+  -ms-opacity: 0;
+  transition: .3s linear;
+  -webkit-transition: .3s linear;
+  -ms-transition: .3s linear;
+  -o-transition: .3s linear;
+  -moz-transition: .3s linear;
+}
+
+.chat-box-show {
+  opacity: 1;
+}
+
+.chat-name {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 24px;
+  color: white;
+  font-weight: 500;
+}
+
+.chat-content {
+  width: 98%;
+  height: 90%;
+  margin: 50px auto 0;
+  border-radius: 10px;
+  background-color: white;
+  overflow: hidden;
+}
+
+.chat-content-group {
+  height: 70%;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.chat-enter-group {
+  height: 30%;
+  background-color: #e0e1e3;
+  border-top: 1px #c7cdd2 solid;
+}
+
+.chat-enter-group .functional-area {
+  height: 35px;
+  padding-left: 20px;
+  line-height: 35px;
+}
+
+.chat-enter-group .functional-area i.anticon-picture {
+  vertical-align: middle;
+  font-size: 24px;
+  color: #999;
+  cursor: pointer;
+}
+
+.chat-enter-group .functional-area i.anticon-picture:hover {
+  color: #2884e0;
+}
+
+.enter-box {
+  padding: 0 20px;
+}
+
+.enter-box .textarea-box {
+  width: 85%;
+  height: 100px;
+  padding: 10px;
+  border: #ccc solid 1px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.enter-box .textarea-box textarea {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  font-size: 14px;
+  color: #666;
+  border: none;
+  outline: none;
+  resize: none;
+}
+
+.enter-box a {
+  margin-left: 2%;
+  width: 13%;
+  height: 100px;
+  font-size: 28px;
+  color: white;
+  text-align: center;
+  line-height: 100px;
+  background-color: #ec9731;
+  border-radius: 5px;
+}
+
+.enter-box a:focus {
+  text-decoration: none;
+}
+
+.enter-box a:hover {
+  background-color: #eb8715;
+}
+
+.message-box .message-group {
+  margin-bottom: 10px;
+}
+
+.message-box .head-img {
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 30px;
+  background-color: #ccc;
+}
+.message-box .message-info {
+  margin-left: 10px;
+}
+
+.message-box .message-info p.user-info {
+  font-size: 13px;
+  color: #999;
+  letter-spacing: 1px;
+}
+
+.message-box .message-value {
+  margin: 6px 10px 0 0;
+  background-color: #b4e4fc;
+  position: relative;
+  min-height: 30px;
+  max-width: calc(100% - 80px);
+  border-radius: 4px;
+  padding: 6px;
+  box-sizing: border-box;
+  min-width: 60%;
+}
+
+.message-box .message-left .message-value {
+  text-align: right;
+}
+
+.message-box .message-value pre {
+  white-space: pre-wrap;
+  word-break: break-all;
+  color: #1a1a1a;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0;
+}
+
+.message-box .message-left .message-icon {
+  position: absolute;
+  top: 0px;
+  left: -38px;
+  transform: rotateY(180deg);
+}
+
+.message-box .message-right .message-icon {
+  position: absolute;
+  top: 0px;
+  right: -38px;
+}
+
+.message-box .message-right .message-value {
+  float: right;
+  text-align: left;
+}
+
+.message-box .message-right .message-info {
+  margin-right: 10px;
+  margin-left: 0;
+}
+
+.message-box .message-right .message-info p.user-info {
+  text-align: right;
+}
